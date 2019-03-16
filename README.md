@@ -5,6 +5,10 @@
  
 ### Prototype
 [PetroBYTES client](https://driller.000webhostapp.com/client/)
+[PetroBYTES Administrator](https://driller.000webhostapp.com/administrator/)
+
+### CSS Framework
+[Bootstrap-Italia](https://italia.github.io/bootstrap-italia/)
 
  
 ### :fuelpump: What are the Petroleum Scams ? 
@@ -33,6 +37,9 @@ The website then asks for the amount of petrol that he actually wanted and then 
 The user can next select the address of the petrol pump from the dropdown and submit this data to a database.
 
 Using this data We aim to predict the average FLowrate Error and Adulteration for each Petrol Pump using Linerar Regression Model . This data will be Publicly Available and hence the user can decide which is the best petrolpump for him.It also creates a pressure on the petrol pump owners to act responsibly since the entire system becomes transparent.
+
+The system has been Updated For Five Petrol Pumps namely A to E
+Additional Datasets have been used for correctly doing the data Analysis
 
 #### :coffee: Developed By BYTES
 Suggestions and Contributions are highly Appreciated
