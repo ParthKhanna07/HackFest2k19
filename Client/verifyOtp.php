@@ -5,7 +5,8 @@ if(isset($_POST['button-3'])){
     $otp = $_POST['otp'];
     
     try{
-        $sql = "SELECT * FROM temp WHERE otp='.$otp.'"; 
+        $sql = "SELECT * FROM temp WHERE otp = ?";
+        $sql = $sql->bindParam(1,$otp);
         $result = $pdo->query($sql);
         if($result->rowCount() > 0){
             while($row = $result->fetch()){
@@ -88,7 +89,7 @@ require_once("./includes/header.php");
                             </div>
                             <div class="it-card-footer">
                                 <span class="card-signature">Thanking You</span>
-                                <input class="btn btn-outline-primary btn-sm" type="submit" valuue="Submit"
+                                <input class="btn btn-outline-primary btn-sm" type="submit" value="Submit"
                                     id="fuelTransaction" name="fuelTransaction">
                             </div>
                         </form>
