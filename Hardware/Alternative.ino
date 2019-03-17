@@ -56,6 +56,6 @@ Serial.print("volume in litres =  ");
 Serial.println(vol);
 cont=0;
 delay(100);
-s.write(Serial.print(vol));
+s.write(vol);
 
 }}}
